@@ -1,0 +1,30 @@
+.workMain{
+
+	color: white;
+	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+	border-top: 2px yellow solid;
+	border-radius: 10px 10px 0 0;
+	height: auto;
+	background: ##dede6b;
+	background-image: url("./pics/back1.png"), url("./pics/back2.png");
+	background-repeat: repeat-x, repeat;
+
+}
+.work{
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+}
+.workAddressBox{
+	margin: 20px;
+	width: 400px;
+	height: auto;
+	margin-right: 30px;
+	margin-left: 30px;
+	min-width: 150px;
+
+  box-shadow:  black 1px 0 10px;
+}

@@ -1,0 +1,105 @@
+
+.Logo{
+	background-image: url('./logo.png');
+	background-size: contain;
+	background-repeat: no-repeat; 
+	height: 50px;
+	width: 50px;
+	background-color: none;
+	margin-right: 20px;
+}
+
+
+
+.navBar{
+	top:0;
+	width: 100%;
+	position: fixed;
+	color: white;
+	z-index:5;
+	font-weight: bolder;
+	opacity: .9;
+	background: #9bc3d1;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0f0e17, #cca5a0);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #0f0e17, #dab1af); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px #f5f55f solid;
+
+}
+.link{
+	opacity: 0.9;
+}
+.link:hover{
+
+}
+.navBarInside{
+    display: flex;
+    flex-direction: row;
+	color: #e8e54f;
+    letter-spacing: 3px;
+    font-weight: bold;
+	padding:10px;
+	width: 40%;
+	text-decoration: none;
+}
+.navBarInside:hover{
+	color: yellow;
+}
+.navBarInside > h3 {
+	color: white;
+	text-decoration: none;
+}
+.active{
+	color:#ff564a;
+	
+}
+.WhatsappBtn{
+	margin-top: 15px;
+	border-radius: 50px 50px 50px 0;
+	background-color: #25D366;
+	border:2px white solid;
+	color: white;
+  	transition: 1s;
+  	padding-top:8px;
+  	padding-bottom:8px; 
+}
+.WhatsappBtn:hover{
+	transform:  scale(1.05,1);
+}
+
+.MenuBtn{
+	display: none;
+	height: 35px;
+	width: 35px;
+  	animation-name: Menub;
+	animation-duration: 3s;
+	animation-iteration-count:1;
+	position: fixed;
+	right: 0;
+	margin-right: 10px;
+}
+
+@keyframes Menub {
+  from {
+	transform:  scale(0,0);
+    opacity: 0;
+  }
+  to {
+	  
+	transform:  scale(1,1);
+    opacity: 1;
+}}
+.MenuBtn:hover{
+	background-color: orange;
+	transform:  scale(1.05,1);
+}
+
+
+
+.NavList{
+	transition: 2s;
+  display: block;
+	width: 60%;
+}
+

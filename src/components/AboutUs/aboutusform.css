@@ -1,0 +1,68 @@
+.AboutUsFormMain{
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  transition: 5s ease-in;
+    animation-name: Cclose;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+}
+
+@keyframes Close {
+  from {
+    height : 0px;
+  }
+  to {
+    height : max-height;
+}}
+
+@keyframes EClose {
+  from {
+  transform: translate(0,0);
+    opacity: 1;
+  }
+  to {
+  transform: translate(500px,0);
+    opacity: 0;
+}}
+
+.formbox{
+  padding: 10% 2% 5% 2%;
+  max-width:600px;
+  min-width:150px;
+  width:400px;box-shadow: rgb(0 0 0 / 40%) 0px 2px 4px, rgb(0 0 0 / 30%) 0px 7px 13px -3px, rgb(0 0 0 / 20%) 0px -3px 0px inset;
+  
+}
+.field{
+    width:100%;
+}
+.labels{ 
+    font-size: 25px;
+    color: grey;
+    padding-bottom: 100px;
+    transition: 1s;
+}
+.labels:hover{
+    color: black;
+
+}
+.fieldinput{
+  margin: 2%;
+  width: 90%;
+}
+
+
+
+
+.XFormBtn{
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
+  background-color: white;
+  
+}

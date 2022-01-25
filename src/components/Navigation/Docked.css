@@ -1,0 +1,71 @@
+
+.DockedMenu{
+    display: none;
+    width: 60%;
+	float: right;
+	right: 0;
+    top: 0;
+    bottom: 0;
+	position: fixed;
+	background-color: white;
+	z-index: 6;
+	font-weight: bolder;
+	opacity: .9;
+	background: #9bc3d1;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0f0e17, #9bc3d1);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #0f0e17, #9bc3d1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	border-left: 1px #f5f55f solid;
+	animation: DMenub 1s 1;
+
+}
+
+@keyframes DMenub {
+  from {
+	transform: translate(500px,0);
+    opacity: 0;
+  }
+  to {
+	transform: translate(0px,0);
+    opacity: 1;
+}}
+
+@keyframes DMenubAfter {
+  from {
+	transform: translate(0,0);
+    opacity: 1;
+  }
+  to {
+	transform: translate(500px,0);
+    opacity: 0;
+}}
+
+.MenuList{
+	transition: 2s;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 10px;
+
+}
+
+.MenuBarInside{
+	color: #e8e54f;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+
+.DockedList{
+	transition: 2s;
+  display: block;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.XBtn{
+	margin:10px 10px 0 0;
+	height: 35px;
+	width: 35px;
+  
+}

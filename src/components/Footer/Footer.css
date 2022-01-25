@@ -1,0 +1,60 @@
+.FooterMain{
+	width: 100%;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+
+	border-top: 2px yellow solid;
+	border-radius: 10px 10px 0 0;
+	background-color: #0f0e17;
+	opacity: 0.9;
+	background-image:  radial-gradient(#c0c0c0 1.75px, transparent 1.75px), radial-gradient(#dddddd 1.75px, #221b4b 1.75px);
+	background-size: 70px 70px;
+	background-position: 0 0,35px 35px;
+	}
+
+.FooterBody{
+	justify-content: center;
+	display: flex;
+	flex-direction: row;	
+	width: 100%;
+	padding: 2%;
+}
+
+.FooterAdresses{
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	padding-right: 5%;	
+    align-self: center;
+}
+
+.FooterAddressBox{
+	width: 250px;
+	margin-right: 10px;
+	margin-left: 10px;
+	min-width: 150px;
+	
+  text-shadow: black 1px 0 2px;
+}
+.FooterAddressBoxMap{
+	width: 500px;
+	margin-right: 10px;
+	margin-left: 10px;
+	min-width: 150px;
+	
+  text-shadow: black 1px 0 2px;
+}
+.google-map{
+	height: 300px;
+	width: 100%;
+}
+.FooterSign{
+	width: 100%;
+	padding:2px;
+	background-color: black;
+	opacity: 0.9;
+}
+.font-set{
+	font-family: Verdana !important;
+}

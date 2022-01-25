@@ -1,0 +1,118 @@
+
+
+@keyframes pulses {
+  
+  from {
+    transform: rotate(0deg);
+} 
+  to {
+    transform: rotate(360deg);
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container2-Animation{
+
+	animation-delay: 8s;
+    animation-name: pulse2;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+
+}
+
+@keyframes pulse2 {
+  from {
+    transform: translate(-50%,0);
+  }
+  to {
+    transform: translate(0%,0);
+}
+}
+.container2-AnimationIN{
+
+  text-shadow: black 1px 0 10px;
+	animation-delay: 8s;
+	animation-name: pulses2;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+}
+
+@keyframes pulses2 {
+  
+  from {
+    transform: rotate(0deg);
+} 
+  to {
+    transform: rotate(360deg);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container3-Animation{
+
+  animation-delay: 17s;
+    animation-name: pulse3;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+
+}
+
+@keyframes pulse3 {
+  from {
+    transform: translate(-50%,0);
+  }
+  to {
+    transform: translate(0%,0);
+}
+}
+.container3-AnimationIN{
+
+  text-shadow: black 1px 0 10px;
+  animation-delay: 17s;
+  animation-name: pulses3;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+
+@keyframes pulses3 {
+  
+  from {
+    transform: rotate(0deg);
+} 
+  to {
+    transform: rotate(360deg);
+}
+}

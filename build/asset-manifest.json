@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/easyearnonlinework/static/css/main.55a03bb0.chunk.css",
+    "main.js": "/easyearnonlinework/static/js/main.da3fc303.chunk.js",
+    "main.js.map": "/easyearnonlinework/static/js/main.da3fc303.chunk.js.map",
+    "runtime-main.js": "/easyearnonlinework/static/js/runtime-main.e74497c4.js",
+    "runtime-main.js.map": "/easyearnonlinework/static/js/runtime-main.e74497c4.js.map",
+    "static/css/2.4675f050.chunk.css": "/easyearnonlinework/static/css/2.4675f050.chunk.css",
+    "static/js/2.361facca.chunk.js": "/easyearnonlinework/static/js/2.361facca.chunk.js",
+    "static/js/2.361facca.chunk.js.map": "/easyearnonlinework/static/js/2.361facca.chunk.js.map",
+    "static/js/3.af3a58ab.chunk.js": "/easyearnonlinework/static/js/3.af3a58ab.chunk.js",
+    "static/js/3.af3a58ab.chunk.js.map": "/easyearnonlinework/static/js/3.af3a58ab.chunk.js.map",
+    "index.html": "/easyearnonlinework/index.html",
+    "static/css/2.4675f050.chunk.css.map": "/easyearnonlinework/static/css/2.4675f050.chunk.css.map",
+    "static/css/main.55a03bb0.chunk.css.map": "/easyearnonlinework/static/css/main.55a03bb0.chunk.css.map",
+    "static/js/2.361facca.chunk.js.LICENSE.txt": "/easyearnonlinework/static/js/2.361facca.chunk.js.LICENSE.txt",
+    "static/media/1.19ffd8ea.jpg": "/easyearnonlinework/static/media/1.19ffd8ea.jpg",
+    "static/media/1.339fd834.jpg": "/easyearnonlinework/static/media/1.339fd834.jpg",
+    "static/media/1.817c541e.jpg": "/easyearnonlinework/static/media/1.817c541e.jpg",
+    "static/media/2.4275f859.png": "/easyearnonlinework/static/media/2.4275f859.png",
+    "static/media/2.6646dc22.jpg": "/easyearnonlinework/static/media/2.6646dc22.jpg",
+    "static/media/3.38cd6e12.jpg": "/easyearnonlinework/static/media/3.38cd6e12.jpg",
+    "static/media/3.a8d95de5.png": "/easyearnonlinework/static/media/3.a8d95de5.png",
+    "static/media/4.0344d081.png": "/easyearnonlinework/static/media/4.0344d081.png",
+    "static/media/4.a4452aac.jpg": "/easyearnonlinework/static/media/4.a4452aac.jpg",
+    "static/media/5.2ee46148.png": "/easyearnonlinework/static/media/5.2ee46148.png",
+    "static/media/investment-terminology.234c7ef5.jpg": "/easyearnonlinework/static/media/investment-terminology.234c7ef5.jpg",
+    "static/media/Navigation.css": "/easyearnonlinework/static/media/logo.e786ffd3.png",
+    "static/media/map.c7d90f95.png": "/easyearnonlinework/static/media/map.c7d90f95.png",
+    "static/media/menu.63966a90.webp": "/easyearnonlinework/static/media/menu.63966a90.webp",
+    "static/media/pic1.5c2184df.png": "/easyearnonlinework/static/media/pic1.5c2184df.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e74497c4.js",
+    "static/css/2.4675f050.chunk.css",
+    "static/js/2.361facca.chunk.js",
+    "static/css/main.55a03bb0.chunk.css",
+    "static/js/main.da3fc303.chunk.js"
+  ]
+}
