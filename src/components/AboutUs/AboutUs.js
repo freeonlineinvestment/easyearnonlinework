@@ -32,6 +32,12 @@ render(){
 					<br/>
 					<p className='f3 '>Abhi neche deye gaye form ko fill karen.</p>
 					<br/><br/>
+					<a  
+					onClick={()=>this.onButtonPressed(true)}
+					href='localhost:3000'
+					className='grow f3 black bg-yellow link ba ph3 br2 b pv2 mb2 dib  pointer'>
+						Open Form
+					</a>
 				</div>
 				<div className='aboutUsInBox'>
 					<img alt='field information' src={fieldPic}/>
