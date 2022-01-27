@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/easyearnonlinework/static/css/main.55a03bb0.chunk.css",
-    "main.js": "/easyearnonlinework/static/js/main.da3fc303.chunk.js",
-    "main.js.map": "/easyearnonlinework/static/js/main.da3fc303.chunk.js.map",
+    "main.css": "/easyearnonlinework/static/css/main.e9ac010c.chunk.css",
+    "main.js": "/easyearnonlinework/static/js/main.243b61ba.chunk.js",
+    "main.js.map": "/easyearnonlinework/static/js/main.243b61ba.chunk.js.map",
     "runtime-main.js": "/easyearnonlinework/static/js/runtime-main.e74497c4.js",
     "runtime-main.js.map": "/easyearnonlinework/static/js/runtime-main.e74497c4.js.map",
     "static/css/2.4675f050.chunk.css": "/easyearnonlinework/static/css/2.4675f050.chunk.css",
-    "static/js/2.361facca.chunk.js": "/easyearnonlinework/static/js/2.361facca.chunk.js",
-    "static/js/2.361facca.chunk.js.map": "/easyearnonlinework/static/js/2.361facca.chunk.js.map",
+    "static/js/2.025cae7c.chunk.js": "/easyearnonlinework/static/js/2.025cae7c.chunk.js",
+    "static/js/2.025cae7c.chunk.js.map": "/easyearnonlinework/static/js/2.025cae7c.chunk.js.map",
     "static/js/3.af3a58ab.chunk.js": "/easyearnonlinework/static/js/3.af3a58ab.chunk.js",
     "static/js/3.af3a58ab.chunk.js.map": "/easyearnonlinework/static/js/3.af3a58ab.chunk.js.map",
     "index.html": "/easyearnonlinework/index.html",
     "static/css/2.4675f050.chunk.css.map": "/easyearnonlinework/static/css/2.4675f050.chunk.css.map",
-    "static/css/main.55a03bb0.chunk.css.map": "/easyearnonlinework/static/css/main.55a03bb0.chunk.css.map",
-    "static/js/2.361facca.chunk.js.LICENSE.txt": "/easyearnonlinework/static/js/2.361facca.chunk.js.LICENSE.txt",
+    "static/css/main.e9ac010c.chunk.css.map": "/easyearnonlinework/static/css/main.e9ac010c.chunk.css.map",
+    "static/js/2.025cae7c.chunk.js.LICENSE.txt": "/easyearnonlinework/static/js/2.025cae7c.chunk.js.LICENSE.txt",
     "static/media/1.19ffd8ea.jpg": "/easyearnonlinework/static/media/1.19ffd8ea.jpg",
     "static/media/1.339fd834.jpg": "/easyearnonlinework/static/media/1.339fd834.jpg",
     "static/media/1.817c541e.jpg": "/easyearnonlinework/static/media/1.817c541e.jpg",
@@ -33,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.e74497c4.js",
     "static/css/2.4675f050.chunk.css",
-    "static/js/2.361facca.chunk.js",
-    "static/css/main.55a03bb0.chunk.css",
-    "static/js/main.da3fc303.chunk.js"
+    "static/js/2.025cae7c.chunk.js",
+    "static/css/main.e9ac010c.chunk.css",
+    "static/js/main.243b61ba.chunk.js"
   ]
 }
