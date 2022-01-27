@@ -60,9 +60,7 @@ import CloseX from './pics/x.png';
 	return(
 		<div id='messageForm' className='AboutUsFormMain'>
 			<form className='formbox' ref={form} onSubmit={sendEmail}>
-			<img 
-				onClick={()=>ClosingAnimation()}
-				src={CloseX} className='XFormBtn fr' />
+			
 				<div className="field black" >
 					
 				<p className="fieldinput b">COME WORK WITH US</p>
@@ -70,30 +68,30 @@ import CloseX from './pics/x.png';
 				</div>	
 				<div className="field" tabindex="1">
 					
-					<input className="fieldinput" name="username" type="text" value={name} onChange={ ( event ) => { setName( event.target.value ); } } placeholder="Full Name" />
+					<input className="fieldinput" name="username" type="text" value={name} onChange={ ( event ) => { setName( event.target.value ); } } placeholder="Enter your first name" />
 				</div>
 				
 				<div className="field" tabindex="2">
 					
-					<input className="fieldinput" name="email" type="email" value={email} onChange={ ( event ) => { setEmail( event.target.value ); } } placeholder="Email Addres *" required/>
-				</div>
-				
-				<div className="field" tabindex="2">
-					
-					<input className="fieldinput" name="number" type="text" value={number} onChange={ ( event ) => { setNumber( event.target.value ); } }  placeholder="Phone Number" />
+					<input className="fieldinput" name="email" type="email" value={email} onChange={ ( event ) => { setEmail( event.target.value ); } } placeholder="Enter your email" required/>
 				</div>
 				
 				<div className="field" tabindex="3">
 					
+					<input className="fieldinput" name="number" type="text" value={number} onChange={ ( event ) => { setNumber( event.target.value ); } }  placeholder="Enter your WhatsApp Number" />
+				</div>
+				
+				<div className="field" tabindex="4">
+					
 				<label className="fl black mh3">
-					When can you start?
+					Select date?
 					</label>
 					<input className="fieldinput" name="date"  onClick={ ( event ) => { setDate( event.target.value ); } } type="date" />
 				</div>
 				<label className="fl black mh3">
-					Select a Package
+					Select package
 					</label>
-				<div className="field" tabindex="3">
+				<div className="field" tabindex="5">
 					<select className="fieldinput" name="pkg" id="pkg" onChange={ ( event ) => { setPkg( event.target.value ); } }>
 						<option value=""></option>
 						<option value="5000 invest Get 7500 in 7 days">5000 invest Get 7500 in 7 days</option>
@@ -106,16 +104,16 @@ import CloseX from './pics/x.png';
 					
 				</div>
 				
-				<div className="field" tabindex="3">
+				<div className="field" tabindex="6">
 					
 					<input className="fieldinput" name="refernce" type="text" value={code}  onChange={ ( event ) => { setCode( event.target.value ); } }  placeholder="Reference Code" />
 				</div>
 				
-				<div className="field" tabindex="3">
+				<div className="field" tabindex="7">
 					
 					<input className="fieldinput h4" name="message" type="text" value={msg} onChange={ ( event ) => { setMsg( event.target.value ); } }  placeholder="Additional Message" />
 				</div>
-				<input type="submit" className="fieldinput pa2 bg-orange b dib br3 hover-bg-yellow grow" value="Send Me Message" />
+				<input type="submit" className="fieldinput pa2 bg-yellow b dib br3 hover-bg-orange grow" value="Send Me Message" />
 				
 			</form>
 		</div>
