@@ -30,7 +30,6 @@ render(){
 				<div className='aboutUsInBox ConsolText'>
 					<p className='Headings b'>JOIN OUR BUSSINESS</p>
 					<br/>
-					<p className='f3 '>Abhi neche deye gaye form ko fill karen.</p>
 					<br/><br/>
 					<a  
 					onClick={()=>this.onButtonPressed(true)}

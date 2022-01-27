@@ -46,10 +46,6 @@ import CloseX from './pics/x.png';
 			
 		}
 
-		useEffect( async() => {
-			fetch(null)
-			.then(await window.scroll(0, ( window.window.innerWidth < 769 ) ? 3988 : 3606 ),10000)
-			},[]);
 		
 
 			const ClosingAnimation = async(event)=>{
