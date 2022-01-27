@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/easyearnonlinework/static/css/main.e9ac010c.chunk.css",
-    "main.js": "/easyearnonlinework/static/js/main.243b61ba.chunk.js",
-    "main.js.map": "/easyearnonlinework/static/js/main.243b61ba.chunk.js.map",
+    "main.js": "/easyearnonlinework/static/js/main.7e0e17f4.chunk.js",
+    "main.js.map": "/easyearnonlinework/static/js/main.7e0e17f4.chunk.js.map",
     "runtime-main.js": "/easyearnonlinework/static/js/runtime-main.e74497c4.js",
     "runtime-main.js.map": "/easyearnonlinework/static/js/runtime-main.e74497c4.js.map",
     "static/css/2.4675f050.chunk.css": "/easyearnonlinework/static/css/2.4675f050.chunk.css",
@@ -35,6 +35,6 @@
     "static/css/2.4675f050.chunk.css",
     "static/js/2.025cae7c.chunk.js",
     "static/css/main.e9ac010c.chunk.css",
-    "static/js/main.243b61ba.chunk.js"
+    "static/js/main.7e0e17f4.chunk.js"
   ]
 }
