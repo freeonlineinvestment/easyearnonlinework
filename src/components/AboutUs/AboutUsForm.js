@@ -23,7 +23,7 @@ import CloseX from './pics/x.png';
 			
 			e.preventDefault();
 			
-			emailjs.send( 'service_bwkhvql', 'template_r4cw5hb', {
+			emailjs.send( 'service_18omv2o', 'template_2ggrwy9', {
 				name: name,
 				message: msg,
 				email: email,
@@ -32,7 +32,7 @@ import CloseX from './pics/x.png';
 				today: new Date().toDateString(),
 				code: code,
 				pkg: pkg
-				}, 'user_r467qDowX3j9iXO1bcn2f')
+				}, 'user_7Jh4PyOt67jJo4Rl5dNL1')
 			.then((result) => {
 				document.getElementById('messageForm').style.animation='EClose 3s 1';
 				
